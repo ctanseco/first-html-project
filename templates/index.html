@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="/static/styles/styles.css"
 </head>
 <body>
+    <p id="demo">A paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
     <h1>This is Bong's Heading</h1>
     <h6>This is Bong's small heading</h6>
 
@@ -26,5 +29,10 @@
 
     <p>This is test text</p>
 
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+  </script>
 </body>
 </html>
